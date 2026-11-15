@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from .models import Score
+from .serializers import ScoreSerializer
 
-# Create your views here.
+class ScoreViewSet(viewsets.ModelViewSet):
+    queryset = Score.objects.all().order_by('-score')
+    serializer_class = ScoreSerializer
