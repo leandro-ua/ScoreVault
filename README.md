@@ -89,7 +89,7 @@ El proyecto requiere ejecutar dos servidores locales de forma simultánea (uno p
 Si se utiliza la base de datos local preconfigurada (o tras ejecutar `createsuperuser` con estos datos):
 
 * **Usuario:** `leax360`
-* **Contraseña:** `TU_CONTRASEÑA`
+* **Contraseña:** `40157331a`
 
 ## Endpoints de la API
 
